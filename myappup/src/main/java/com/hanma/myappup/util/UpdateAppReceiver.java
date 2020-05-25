@@ -1,4 +1,4 @@
-package com.hanma.mupdataapp.util;
+package com.hanma.myappup.util;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
@@ -6,6 +6,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
+
+import com.hanma.mupdataapp.util.DownloadAppUtils;
 
 
 /**

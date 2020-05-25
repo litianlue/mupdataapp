@@ -1,4 +1,4 @@
-package com.hanma.mupdataapp.feature;
+package com.hanma.myappup.feature;
 
 /**
  * Created by sanmu on 2016/10/13 0013.

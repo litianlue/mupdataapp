@@ -1,4 +1,4 @@
-package com.hanma.mupdataapp.util;
+package com.hanma.myappup.util;
 
 import android.Manifest;
 import android.app.Activity;
@@ -9,8 +9,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 
-import com.hanma.mupdataapp.customview.ConfirmDialog;
-import com.hanma.mupdataapp.feature.Callback;
+import com.hanma.myappup.customview.ConfirmDialog;
+import com.hanma.myappup.feature.Callback;
 
 import androidx.core.content.ContextCompat;
 
@@ -131,9 +131,9 @@ public class UpdateAppUtils {
 
                     case 1:  //sure
                         if (downloadBy == DOWNLOAD_BY_APP) {
-                            DownloadAppUtils.downloadForAutoInstall(activity, apkPath, "demo.apk", serverVersionName);
+                            com.hanma.mupdataapp.util.DownloadAppUtils.downloadForAutoInstall(activity, apkPath, "demo.apk", serverVersionName);
                         }else if (downloadBy == DOWNLOAD_BY_BROWSER){
-                            DownloadAppUtils.downloadForWebView(activity,apkPath);
+                            com.hanma.mupdataapp.util.DownloadAppUtils.downloadForWebView(activity,apkPath);
                         }
                         break;
                 }

@@ -5,7 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.hanma.mupdataapp.util.UpdateAppUtils;
+import com.hanma.myappup.util.UpdateAppUtils;
+
 
 public class MainActivity extends AppCompatActivity {
     //服务器apk path,这里放了百度云盘的apk测试

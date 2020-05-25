@@ -1,4 +1,4 @@
-package com.hanma.mupdataapp.customview;
+package com.hanma.myappup.customview;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import com.hanma.mupdataapp.R;
-import com.hanma.mupdataapp.feature.Callback;
+import com.hanma.myappup.R;
+import com.hanma.myappup.feature.Callback;
 
 
 /**
