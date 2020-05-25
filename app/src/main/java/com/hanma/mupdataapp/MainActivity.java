@@ -8,7 +8,7 @@ import android.view.View;
 import com.hanma.mupdataapp.util.UpdateAppUtils;
 
 public class MainActivity extends AppCompatActivity {
-    //服务器apk path,这里放了百度云盘的apk 作为测试
+    //服务器apk path,这里放了百度云盘的apk测试
     String apkPath = "http://issuecdn.baidupcs.com/issue/netdisk/apk/BaiduNetdisk_7.15.1.apk";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
